@@ -1,0 +1,93 @@
+.debts-card {
+  padding: 10px 12px;
+  border-radius: 5px;
+  background-color: #211f54;
+  margin-bottom: 20px;
+}
+
+.debts-name {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 73.984px;
+}
+
+.debts-comment {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 73.984px;
+}
+
+.debts-note {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  width: 50%;
+}
+
+.debts-deadline {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.006px;
+}
+
+.debts-amount {
+  margin-left: 15px;
+}
+
+.notes-link {
+  display: none;
+  color: #fff;
+  /* text-decoration: underline */
+}
+
+.notes-link:hover {
+  text-decoration: underline;
+}
+
+.debt-page-title {
+  color: #211f54;
+  font-size: 38px;
+}
+
+.debt-info-desc {
+  font-size: 22px;
+  color: #211f54;
+}
+
+@media (max-width: 1000px) {
+  .debts-comment {
+    display: none;
+  }
+
+  .debts-note {
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    display: none;
+  }
+
+  .notes-link {
+    display: inline-block;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 500px) {
+  .debts-card {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start !important;
+  }
+
+  .date-note {
+    justify-content: space-between;
+  }
+
+  .line {
+    display: none;
+  }
+}

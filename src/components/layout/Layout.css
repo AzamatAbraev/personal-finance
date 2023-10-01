@@ -1,0 +1,47 @@
+.header__item {
+  color: #211f54;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px;
+}
+
+header {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+}
+
+header .active {
+  color: #51D289 !important;
+}
+
+.header__logo {
+  color: #211f54;
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+  transition: .5s ease;
+
+  .logo__span {
+    color: #51D289;
+    font-family: 'Open Sans';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+}
+
+
+
