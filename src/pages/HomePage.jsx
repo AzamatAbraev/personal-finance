@@ -19,7 +19,7 @@ const HomePage = ({ debts }) => {
     <section className="pb-5">
       <div className="container">
         <div className="home-header">
-          <h2 className="home-title">Welcome Back</h2>
+          <h2 clasyarsName="home-title">Welcome Back</h2>
           <p className="home-subtitle">
             Here is the information about your debts
           </p>

@@ -11,7 +11,7 @@ const Header = () => {
           <Link to="/home" className="nav-logo header__logo">
             monthly <span className="logo__span">budget</span>
           </Link>
-          <ul className="nav-menu d-flex align-items-center gap-3">
+          <ul className="nav-menu d-flex align-items-center gap-3 links-wrapper">
             <li className="nav-item">
               <NavLink to="/home" className="nav-link header__item">
                 Home
