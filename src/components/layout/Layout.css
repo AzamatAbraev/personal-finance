@@ -47,10 +47,6 @@ header .active {
   .header__logo {
     display: none;
   }
-
-  .links-wrapper {
-    justify-content: space-between !important;
-  }
 }
 
 

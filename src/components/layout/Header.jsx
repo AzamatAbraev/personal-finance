@@ -19,7 +19,7 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <NavLink to="/transactions" className="nav-link header__item">
-                Transactions
+                Expenses
               </NavLink>
             </li>
             <li className="nav-item">

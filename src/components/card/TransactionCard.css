@@ -1,0 +1,47 @@
+.transaction-card-image,
+.transaction-card-left .frame {
+  position: relative;
+  inset: 0;
+}
+
+.transaction-card-image .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.transaction-card-title {
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.transaction-card-desc {
+  color: rgba(0, 0, 0, 0.34);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.transaction-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.transaction-card-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.transaction-card-stats {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}

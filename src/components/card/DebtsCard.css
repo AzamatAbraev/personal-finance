@@ -77,14 +77,10 @@
 }
 
 @media (max-width: 500px) {
-  .debts-card {
+  .container .debts-card {
     flex-direction: column;
     gap: 20px;
     align-items: flex-start !important;
-  }
-
-  .date-note {
-    justify-content: space-between;
   }
 
   .line {

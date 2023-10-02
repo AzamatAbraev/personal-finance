@@ -1,0 +1,15 @@
+.container .transaction-total {
+  margin-bottom: 100px !important;
+  font-size: 24px;
+}
+
+.transaction-card-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.transaction-title {
+  color: #212529;
+}
