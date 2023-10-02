@@ -12,32 +12,7 @@ import { toast } from "react-toastify";
 
 function App() {
   const [debts, setDebts] = useState(
-    JSON.parse(localStorage.getItem("debts")) || [
-      {
-        id: "1",
-        name: "Azamat",
-        phone: "954867154",
-        amount: 1000,
-        deadline: "2023-10-13",
-        notes: "is trustworthy, high chances of paying it back",
-      },
-      {
-        id: "2",
-        name: "Arnie",
-        phone: "954867154",
-        amount: 1300,
-        deadline: "2023-10-13",
-        notes: "is trustworthy, high chances of paying it back",
-      },
-      {
-        id: "3",
-        name: "Thomas",
-        phone: "954867154",
-        amount: 1100,
-        deadline: "2023-10-12",
-        notes: "is trustworthy, high chances of paying it back",
-      },
-    ]
+    JSON.parse(localStorage.getItem("debts")) || []
   );
   const [show, setShow] = useState(false);
   const [validated, setValidated] = useState(false);
@@ -131,10 +106,7 @@ function App() {
               />
             }
           />
-          <Route
-            path="debts/:debtId"
-            element={<DebtPage debts={debts} />}
-          />
+          <Route path="debts/:debtId" element={<DebtPage debts={debts} />} />
         </Route>
       </Routes>
     </BrowserRouter>

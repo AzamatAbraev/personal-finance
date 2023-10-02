@@ -41,7 +41,7 @@ const DebtPage = ({ debts }) => {
         <div className="debt-info-card d-flex flex-column w-100 pt-3 pb-3 gap-3">
           <p className="debt-info-desc">
             Name of the borrower:{" "}
-            <span className="text-decoration-underline-hover">{name}</span>
+               <span className="text-decoration-underline-hover">{name}</span>
           </p>
           <p className="debt-info-desc">
             Borrowed amount:{" "}
