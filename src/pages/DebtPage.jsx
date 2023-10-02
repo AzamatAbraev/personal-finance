@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 const DebtPage = ({ debts }) => {
   const { debtId } = useParams();
-  const { name, deadline, phone, notes, amount } = debts.find(
+  const { name, deadline, notes, amount } = debts.find(
     (debt) => debt.id === debtId
   );
   const getCurrentDate = () => {
@@ -51,12 +51,6 @@ const DebtPage = ({ debts }) => {
             Due date:{" "}
             <span className="text-decoration-underline-hover">
               {longDateFormat}
-            </span>
-          </p>
-          <p className="debt-info-desc">
-            Contact:{" "}
-            <span className="text-decoration-underline-hover">
-              +998 {phone}
             </span>
           </p>
           <p className="debt-info-desc">
